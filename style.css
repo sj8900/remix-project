@@ -1,0 +1,85 @@
+body {
+    background-image: url('Abstract\ green\ papercut\ style\ layers\ background.jpeg');
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%) url(Abstract\ green\ papercut\ style\ layers\ background.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 1200px;
+    float: left;
+    height: 70px;
+}
+.meun{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+u1{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+u1 li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+
+}
+
+u1 li a{
+    text-decoration: none;
+    color:#ffffff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+u1 li a:hover{
+    color: hwb(110 2% 3%);
+}
+
+.content {
+    padding-left: 10px;
+   width: 1200px;
+   height: auto;
+   margin: auto;
+   color:black;
+   position: relative;
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content h1{
+    font-family: 'Franklin Gothic Medium';
+    font-size: 50px;
+    padding-left: 50px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
